@@ -1,0 +1,53 @@
+<script>
+    const email = document.getElementById("email");
+
+    email.addEventListener("click", async () => {
+        await navigator.clipboard.writeText("ulisesaucedo.se04@gmail.com");
+        email.classList.add("tooltip");
+        setTimeout(() => {
+            email.classList.remove("tooltip");
+        }, 3000);
+    });
+</script>
+
+<div class="flex flex-wrap gap-2">
+    <a
+        href="https://github.com/Ulises-Saucedo"
+        target="_blank"
+        class="flex justify-center relative bg-neutral-900 px-8 py-1 border border-neutral-700 text-left p-3 text-sm rounded-full hover:scale-105
+        duration-500"
+    >
+        Github
+    </a>
+    <a
+        href="./CV-Ulises-Saucedo.pdf"
+        target="_blank"
+        class="flex justify-center relative bg-neutral-900 px-8 py-1 border border-neutral-700 text-left p-3 text-sm rounded-full hover:scale-105
+        duration-500"
+    >
+        CV
+    </a>
+    <button
+        id="email"
+        class="flex justify-center relative bg-neutral-900 px-8 py-1 border border-neutral-700 text-left p-3 text-sm rounded-full hover:scale-105
+        duration-500 animate__animated"
+    >
+        Correo
+    </button>
+</div>
+
+<style>
+    .tooltip::before {
+        content: "Copiado al portapapeles";
+        width: max-content;
+        position: absolute;
+        top: -40px;
+        background-color: rgb(23 23 23);
+        border: 1px solid rgb(64 64 64);
+        transform: translateX(50%, -50%);
+        padding: 5px 10px;
+        border-radius: 5px;
+        animation: fadeInDown;
+        animation-duration: 0.5s;
+    }
+</style>
