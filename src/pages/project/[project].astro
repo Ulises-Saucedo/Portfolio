@@ -19,7 +19,7 @@ if (!selectedProject) return Astro.redirect("/404");
 <Layout title={`${project} | Ulises Saucedo`}>
   <main class="max-w-[800px] mx-auto p-4 space-y-4 font-poppins">
     <video
-      src={`../src/assets/videos/${selectedProject.video}`}
+      src={`/assets/videos/${selectedProject.video}`}
       controls
       class="rounded-lg border border-zinc-700 aspect-video"></video>
 
