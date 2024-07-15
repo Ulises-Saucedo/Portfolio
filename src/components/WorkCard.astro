@@ -1,0 +1,20 @@
+---
+interface Props {
+  title: string;
+  date: string;
+  description: string;
+}
+
+const { title, date, description } = Astro.props;
+---
+
+<div class="relative text-white">
+  <div class="absolute w-[1px] h-[calc(100%+25px)] top-0 -left-3 bg-zinc-700">
+  </div>
+  <div class="absolute w-2 h-2 rounded-full bg-green-300 top-2 -left-4"></div>
+  <h4>{title}</h4>
+  <span class="block opacity-50">{date}</span>
+  <p class="mt-1">
+    {description}
+  </p>
+</div>

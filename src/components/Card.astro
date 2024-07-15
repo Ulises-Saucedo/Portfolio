@@ -1,0 +1,23 @@
+---
+import type { Project } from "@/ts/types/project.types";
+
+interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+---
+
+<div class="border border-zinc-700 rounded p-2 relative">
+  <div class="absolute right-2 top-2 rounded-full w-2 h-2 bg-green-500"></div>
+  <a
+    href={`project/${project.name}`}
+    class="text-white group flex items-center"
+  >
+    {project.name}
+
+    <span class="group-hover:ml-3 ml-1 duration-200 ease-in">
+      <img src="src/assets/icons/arrow-narrow-right.svg" alt="arrow-right" />
+    </span>
+  </a>
+</div>

@@ -1,0 +1,19 @@
+{
+  "works": [
+    {
+      "title": "Plataforma escolar",
+      "date": "03/2023 - 12/2023 (Fullstack)",
+      "description": "Implementación de funcionalidades clave, incluyendo gestión de usuarios, publicación de noticias en el blog y administración de la biblioteca digital."
+    },
+    {
+      "title": "Blockchain",
+      "date": "05/2024 - 06/2024 (Frontend)",
+      "description": "Creación de una interfaz intuitiva y segura, garantizando altos estándares de seguridad y cumplimiento normativo. Consumo de smart contracts."
+    },
+    {
+      "title": "Freelancer",
+      "date": "01/2024 - Actualidad (Fullstack)",
+      "description": "Diseño y desarrollo de APIs RESTful eficientes y seguras. Desarrollo de aplicaciones frontend para consumir APIs utilizando frameworks como Vue y React. Diseño y administración de bases de datos SQL como MySQL y PostgreSQL. Implementación de bases de datos NoSQL como MongoDB para manejar grandes volúmenes de datos no estructurados."
+    }
+  ]
+}

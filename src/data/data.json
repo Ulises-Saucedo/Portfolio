@@ -1,0 +1,11 @@
+{
+  "projects": [
+    {
+      "name": "URLShorter",
+      "technologies": ["MongoDB", "Express", "Vue.js", "Node.js", "TypeScript"],
+      "description": "La aplicación completa permite a los usuarios acortar URLs largas en enlaces más cortos y fáciles de compartir, para los usuarios no autenticados el tiempo de vida de estos enlaces es de 5 minutos, mientras que los usuarios autenticados van a poder persistir estos datos por el tiempo que deseen.",
+      "video": "URLShorter.mp4",
+      "url": "https://github.com/Ulises-Saucedo/URLShorter"
+    }
+  ]
+}
